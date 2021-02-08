@@ -16,6 +16,7 @@ public class TestConfig {
     }
 
 
+    @Bean
     public TestBean2 bean2(){
         return new TestBean2();
     }
